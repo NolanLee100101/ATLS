@@ -1,0 +1,29 @@
+h1, h2 {
+  color: slateblue;
+}
+
+p {
+  color: black;
+}
+
+ul {
+  border: 2px solid lightskyblue;
+}
+
+ol {
+  border: 2px solid lightskyblue;
+}
+
+ol, ul {
+  padding: 10px 25px;
+  border-radius: 0px;
+}
+
+h1 {
+  color: navy;
+}
+
+em, strong {
+  color: rgba(204, 65, 255, 0.674);
+}
+   
