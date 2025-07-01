@@ -6,12 +6,12 @@ p {
   color: black;
 }
 
-ul {
+ul, ol {
   border: 2px solid lightskyblue;
-}
-
-ol {
-  border: 2px solid lightskyblue;
+  padding: 10px 25px;
+  border-radius: 0px;
+  width: 300px;
+  max-width: 100%;
 }
 
 ol, ul {
