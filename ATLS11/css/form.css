@@ -1,0 +1,26 @@
+/* Style labels */
+label {
+  margin-right: .3em;
+  width: 6.3em;
+  display: inline-block;
+  text-align: right;
+}
+
+/* Remove bullets from list items inside #formcol1 */
+#formcol1 li {
+  list-style: none;
+}
+
+/* Required fields highlight */
+#formcol1 input.reqfield {
+  background: #FF9;
+}
+
+/* Highlight current focus with color contrast */
+select:focus, select:active,
+input:focus, input:active,
+input:focus + label, input:active + label,
+label[for]:focus, label[for]:active {
+  color: #FFF !important;
+  background-color: #BB3D2F !important;
+}
